@@ -1,12 +1,15 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  max-width: 700px;
-  width: 700px;
+  /* max-width: 700px; */
+  width: 50%;
+  @media (max-width: 813px) {
+    width: 80%;
+  }
   background: ${({ theme }) => theme.colors.container};
   border-radius: 5px;
   box-shadow: 0 0px 80px rgba(0, 0, 0, 0.1);
-  margin: 120px auto;
+  margin: 20px auto;
   padding: 20px 30px;
 
   h1 {

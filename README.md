@@ -4,7 +4,7 @@ Manygit
 
 <p align="center">
 <strong>
-React js application to manege the issues of a repository on github
+React js application to manage the issues of a repository on github. 
 </strong>
 </p>
 

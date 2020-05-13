@@ -22,6 +22,10 @@ export const Form = styled.form`
   margin-top: 30px;
   display: flex;
   flex-direction: row;
+  @media (max-width: 813px) {
+    flex-direction: column;
+    align-content: center;
+  }
 
   input {
     flex: 1;
@@ -66,6 +70,9 @@ export const SubmitButton = styled.button.attrs((props) => ({
   padding: 0 15px;
   margin-left: 10px;
   border-radius: 4px;
+  @media (max-width: 813px) {
+    margin: 10px;
+  }
 
   display: flex;
   align-items: center;
