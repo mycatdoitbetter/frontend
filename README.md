@@ -31,3 +31,5 @@ yarn start
 ```
 
 After this, the React will load a the aplication on the page `localhost:3000`
+
+![demo](demo/demo.gif)
