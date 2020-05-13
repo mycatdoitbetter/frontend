@@ -13,7 +13,10 @@ export default createGlobalStyle`
   }
 
   body {
-    background-image: linear-gradient(#4169E1, #9AC2C9, #6E7E85);
+    
+ 
+    background: ${({ theme }) => theme.colors.gradient};
+    
     -webkit-font-smoothing: antialiased !important;
     
   }
